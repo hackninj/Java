@@ -1,20 +1,29 @@
 package edu.tomerbu;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
+
 
 public class Main {
 
     public static void main(String[] args) {
-        //instance
-        CollegeDAO dao = new CollegeDAO();
 
         try {
-            ArrayList<Student> students = dao.getStudents();
-            System.out.println(students);
+        IStudentsDao dao = CollegeDAO.getInstance();
+            dao.add(
+                    new Student("a", "b", "050", "a@gmail.com")
+            );
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
 
+    private static void format() {
+        int age = 10;
+        String name = "Moshe";
+
+        //Moshe is age years old
+        String str = String.format("%s is %d years old", name, age);
+
+        System.out.println(str);
     }
 }
