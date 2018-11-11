@@ -12,7 +12,7 @@ import java.util.Properties;
 //requires .jar
 public class CollegeDAO {
 
-    public Connection getConnection() throws SQLException {
+    private Connection getConnection() throws SQLException {
         String url = "jdbc:mysql://localhost:3307/college";
         Properties info = new Properties();
         info.put("user", "root");
