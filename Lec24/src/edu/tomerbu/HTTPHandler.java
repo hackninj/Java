@@ -22,20 +22,5 @@ public class HTTPHandler {
 
 
 
-    public static void doEveryMin(){
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (true){
-                    try {
-                        Thread.sleep(1000*60);
-                        //Go Yahoo
-                        System.out.println("After one min "+ new Date());
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        }).start();
-    }
+
 }
