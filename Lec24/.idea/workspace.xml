@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74c380b4-2d01-47cd-af5b-ddb663008609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/tomerbu/Timers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/tomerbu/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/tomerbu/WheatherResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lec24/edu/tomerbu/HTTPHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lec24/edu/tomerbu/HTTPHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lec24/edu/tomerbu/HTTPHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lec24/edu/tomerbu/HTTPHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lec24/edu/tomerbu/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lec24/edu/tomerbu/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/tomerbu/HTTPHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/tomerbu/HTTPHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/tomerbu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/tomerbu/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +15,12 @@
     <session id="-1582472012">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -52,7 +46,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -101,6 +96,11 @@
             <path>
               <item name="Lec24" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lec24" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lec24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lec24" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lec24" type="b2602c69:ProjectViewProjectNode" />
@@ -117,13 +117,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542221952320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542568516217" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -172,11 +171,13 @@
       <updated>1542209672720</updated>
       <workItem from="1542209676379" duration="11781000" />
       <workItem from="1542554438672" duration="475000" />
+      <workItem from="1542568491779" duration="110000" />
+      <workItem from="1542813608746" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12256000" />
+    <option name="totallyTimeSpent" value="13031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -186,7 +187,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3336887" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3411514" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
